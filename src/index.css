@@ -1,2 +1,23 @@
 body { background: #f8f9fa; }
 img { max-width: 100%; }
+/* Make carousel arrows visible */
+.custom-arrow {
+  background-color: rgba(0, 0, 0, 0.5); /* dark semi-transparent background */
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-size: 50%, 50%;
+}
+
+/* Optional: Image styling */
+.top-selling-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.top-selling-img:hover {
+  transform: scale(1.05);
+}
