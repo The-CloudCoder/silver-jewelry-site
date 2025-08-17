@@ -21,3 +21,12 @@ img { max-width: 100%; }
 .top-selling-img:hover {
   transform: scale(1.05);
 }
+.nav-link, .nav-link:hover{
+    color:black !important;
+}
+.nav-link .active{
+    color:gray
+}
+.bg-dark-nav{
+    background-color: #fefefe;
+}
